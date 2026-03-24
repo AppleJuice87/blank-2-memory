@@ -30,7 +30,24 @@
   color: #ffffff;
 }
 
-/* 4. 빈칸 채우기 / 첫글자 힌트 모드의 Input 스타일 */
+/* --- [추가] 힌트 유지용 Wrapper 및 힌트 텍스트 스타일 --- */
+.memo-input-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.memo-hint-text {
+  position: absolute;
+  left: 7px; /* 입력 텍스트와 완벽히 겹치도록 위치 미세조정 */
+  top: 50%;
+  transform: translateY(-50%);
+  color: #b2bec3; /* 흐린 회색 힌트 */
+  pointer-events: none; /* 클릭 방해 금지 */
+  z-index: 1;
+  white-space: nowrap;
+}
+
+/* 4. 빈칸 채우기 / 첫글자 힌트 / 타이핑 모드의 Input 스타일 */
 .memo-input {
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -39,6 +56,9 @@
   min-width: 40px; 
   outline: none;
   text-align: left;
+  background-color: transparent !important; /* 힌트가 보이도록 투명화 */
+  position: relative;
+  z-index: 2; /* 힌트 텍스트보다 위로 배치 */
 }
 .memo-input:focus {
   border-color: #0984e3;
@@ -78,7 +98,6 @@
   color: white !important;
   padding: 15px 20px !important;
   
-  /* 스킨 CSS 간섭을 막기 위한 강제 가로 정렬 세팅 */
   display: flex !important;
   flex-direction: row !important; 
   flex-wrap: nowrap !important; 
@@ -95,7 +114,7 @@
 }
 
 .memo-bottom-panel span {
-  flex-shrink: 1 !important; /* 화면이 좁을 때 텍스트만 줄어들게 허용 */
+  flex-shrink: 1 !important; 
   margin-right: auto !important;
 }
 
@@ -104,7 +123,7 @@
   display: flex !important;
   flex-direction: row !important;
   gap: 15px !important;
-  flex-shrink: 0 !important; /* 버튼 크기는 절대 줄어들거나 찌그러지지 않게 방어 */
+  flex-shrink: 0 !important; 
 }
 
 .memo-bottom-buttons button {
