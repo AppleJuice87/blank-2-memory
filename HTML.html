@@ -3,6 +3,7 @@
   <button class="memo-btn" onclick="setMode('MASK')">마스킹 모드</button>
   <button class="memo-btn" onclick="setMode('BLANK')">빈칸 채우기</button>
   <button class="memo-btn" onclick="setMode('HINT')">첫글자 힌트</button>
+  <button class="memo-btn" onclick="setMode('TYPING')">타이핑 연습</button>
   <button class="memo-btn" onclick="toggleEditMode('TOGGLE')" style="background-color: #74b9ff; color: white;">커스텀 편집</button>
 </div>
 
@@ -39,19 +40,39 @@
       }
     });
 
-    if (mode === 'BLANK' || mode === 'HINT') {
+    // BLANK, HINT, TYPING 3가지 모드 지원
+    if (mode === 'BLANK' || mode === 'HINT' || mode === 'TYPING') {
       document.querySelectorAll('.memo-mask').forEach(span => {
         const answer = span.innerText;
         span.dataset.answer = answer; 
         
+        // 힌트가 입력창 뒤에 남도록 wrapper 생성
+        const wrapper = document.createElement('span');
+        wrapper.className = 'memo-input-wrapper';
+
         const input = document.createElement('input');
         input.type = 'text';
         input.className = 'memo-input';
 
-        input.style.width = `calc(${Math.max(10, answer.length + 6)}ch + 16px)`;
+        // --- 텍스트 박스 동적 너비 계산 (한글/영문 폭 차이 고려) ---
+        let displayLength = 0;
+        for (let i = 0; i < answer.length; i++) {
+          displayLength += answer.charCodeAt(i) > 127 ? 2 : 1;
+        }
+        displayLength += 6; // 한글 3글자(+6) 정도의 여유
+        const finalWidth = Math.max(14, displayLength); // 최소 한글 7글자(14) 보장
+        input.style.width = `calc(${finalWidth}ch + 16px)`;
 
-        if (mode === 'HINT') {
-          input.placeholder = answer.charAt(0);
+        // --- 힌트 텍스트 설정 ---
+        let hintText = '';
+        if (mode === 'HINT') hintText = answer.charAt(0);
+        if (mode === 'TYPING') hintText = answer; // 타이핑 연습은 전체 힌트
+
+        if (hintText) {
+          const hintSpan = document.createElement('span');
+          hintSpan.className = 'memo-hint-text';
+          hintSpan.innerText = hintText;
+          wrapper.appendChild(hintSpan); // 힌트를 wrapper에 먼저 추가(배경역할)
         }
         
         input.addEventListener('keydown', function(e) {
@@ -77,8 +98,9 @@
           }
         });
 
+        wrapper.appendChild(input);
         span.innerHTML = '';
-        span.appendChild(input);
+        span.appendChild(wrapper);
       });
     }
   }
@@ -86,7 +108,6 @@
   function toggleEditMode(state) {
     const bottomPanel = document.getElementById('memoBottomPanel');
 
-    // TOGGLE 상태일 경우 현재 상태의 반대로 설정
     if (state === 'TOGGLE') {
       state = isEditMode ? 'OFF' : 'ON';
     }
@@ -166,7 +187,6 @@
     });
   }
 
-  // [추가] 페이지 로드 시 즉시 '정답 보기(VIEW)' 모드 강제 실행
   window.addEventListener('DOMContentLoaded', () => {
     setMode('VIEW');
   });
