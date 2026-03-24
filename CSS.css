@@ -67,7 +67,7 @@
 /* --- 플로팅 날개 메뉴 (우측) --- */
 .memo-floating-panel {
   position: fixed;
-  right: 20px;
+  right: 0; /* 20px에서 0으로 변경하여 우측에 완전 밀착 */
   top: 50%;
   transform: translateY(-50%);
   display: flex;
@@ -75,6 +75,8 @@
   gap: 10px;
   z-index: 9999;
 }
+
+/* 기본 버튼 (연두색) */
 .memo-btn {
   background-color: #aed688;
   color: #333;
@@ -84,8 +86,17 @@
   box-shadow: -2px 2px 5px rgba(0,0,0,0.1);
   cursor: pointer;
   font-weight: bold;
+  transition: background-color 0.2s ease;
 }
 .memo-btn:hover { background-color: #9bcc70; }
+
+/* 텍스트 입력 관련 버튼 (연한 회색) */
+.memo-btn.gray-btn {
+  background-color: #e0e0e0; /* 연한 회색 */
+}
+.memo-btn.gray-btn:hover {
+  background-color: #c8c8c8; /* 마우스 호버 시 약간 짙어짐 */
+}
 
 /* --- 하단 커스텀 편집 안내 패널 --- */
 .memo-bottom-panel {
