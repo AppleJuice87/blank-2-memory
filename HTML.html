@@ -201,9 +201,15 @@
         setMode('VIEW');
       });
 
-      // --- [추가] 오답만 남기기 기능 ---
+    // --- [추가/수정] 오답만 남기기 기능 ---
       function keepOnlyIncorrect() {
         if (isEditMode) return alert('편집 모드에서는 사용할 수 없습니다.');
+
+        // [추가된 로직] 문서 내에 오답(.is-incorrect)이 하나라도 있는지 확인
+        const incorrectCount = document.querySelectorAll('.memo-mask.is-incorrect').length;
+        if (incorrectCount === 0) {
+          return alert('현재 오답으로 표시된 항목이 없습니다! 🎉');
+        }
 
         // 문서 내의 모든 마스킹 요소를 배열로 가져옵니다.
         const masks = Array.from(document.querySelectorAll('.memo-mask'));
