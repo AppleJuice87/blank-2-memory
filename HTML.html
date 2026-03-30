@@ -1,10 +1,13 @@
+    <!-- 여기서부터 내가 수정함 ------------------------------------->
+
     <div class="memo-floating-panel">
       <button class="memo-btn" onclick="setMode('VIEW')">정답 보기</button>
       <button class="memo-btn" onclick="setMode('MASK')">마스킹 모드</button>
-      
       <button class="memo-btn gray-btn" onclick="setMode('BLANK')">빈칸 채우기</button>
       <button class="memo-btn gray-btn" onclick="setMode('HINT')">첫글자 힌트</button>
       <button class="memo-btn gray-btn" onclick="setMode('TYPING')">타이핑 연습</button>
+      
+      <button class="memo-btn red-btn" onclick="keepOnlyIncorrect()">오답만 남기기</button>
       
       <button class="memo-btn" onclick="toggleEditMode('TOGGLE')" style="background-color: #74b9ff; color: white;">커스텀 편집</button>
     </div>
@@ -197,4 +200,29 @@
       window.addEventListener('DOMContentLoaded', () => {
         setMode('VIEW');
       });
+
+      // --- [추가] 오답만 남기기 기능 ---
+      function keepOnlyIncorrect() {
+        if (isEditMode) return alert('편집 모드에서는 사용할 수 없습니다.');
+
+        // 문서 내의 모든 마스킹 요소를 배열로 가져옵니다.
+        const masks = Array.from(document.querySelectorAll('.memo-mask'));
+        
+        masks.forEach(span => {
+          // 1. 빨간색(오답)으로 표시된 텍스트는 그대로 유지합니다.
+          if (span.classList.contains('is-incorrect')) {
+            return; 
+          }
+          
+          // 2. 텍스트 박스(input)가 들어있는 미입력 상태도 그대로 유지합니다.
+          if (span.querySelector('input')) {
+            return; 
+          }
+
+          // 3. 그 외의 경우 (초록색 정답 처리된 것 & 정답보기 모드에서 초록색인 것)
+          // 마스킹(span)을 완전히 해제하고 일반 검정색 텍스트 노드로 바꿉니다.
+          const textNode = document.createTextNode(span.dataset.answer || span.innerText);
+          span.parentNode.replaceChild(textNode, span);
+        });
+      }
     </script>
