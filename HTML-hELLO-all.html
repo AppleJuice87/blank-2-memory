@@ -1740,7 +1740,14 @@ hELLO 는 무료인 만큼, 링크의 주소는 반드시 지켜주시기 바랍
           <div class="menu_toolbar" id="menu-toolbar" x-data="menuToolbar"><template x-data="subscribe" x-if="canSubscribe"><button class="subscribe btn_subscription" :data-blog-id="T.config.BLOG.id" :data-url="TistoryBlog.tistoryUrl"><span class="txt text-hidden">구독하기</span><i class="ico fa-solid fa-star"></i></button></template></div>
         </aside>
         <aside class="flex justify-end px-4 w-full box-border fixed text-sm z-[90] bottom-3 <s_if_var_sidebar>xl:w-c</s_if_var_sidebar>" id="bottom" x-data="bottom">
-          <div class="wrap flex gap-x-2.5"><button class="theme btn" @click="toggleTheme"><span class="txt">테마</span><i class="ico fa-solid fa-moon"></i></button><a class="top btn" href="#hELLO"><span class="txt">상단으로</span><i class="ico fa-solid fa-chevron-up"></i></a></div>
+          <div class="wrap flex gap-x-2.5">
+          
+          <!-- <button class="theme btn" @click="toggleTheme">
+            <span class="txt">테마</span>
+            <i class="ico fa-solid fa-moon"></i>
+            </button> ----->
+            
+            <a class="top btn" href="#hELLO"><span class="txt">상단으로</span><i class="ico fa-solid fa-chevron-up"></i></a></div>
         </aside>
       </div>
     </s_t3>
