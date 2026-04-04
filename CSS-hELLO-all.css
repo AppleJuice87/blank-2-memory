@@ -1815,8 +1815,8 @@ button {
   background-color: rgb(230 230 233 / var(--tw-bg-opacity));
 }
 
-.dark .lazyload,
-.dark .lazyloading {
+.dark_dy .lazyload,
+.dark_dy .lazyloading {
   --tw-bg-opacity: 1;
   background-color: rgb(41 42 45 / var(--tw-bg-opacity));
 }
@@ -2020,101 +2020,101 @@ button {
   background-color: rgb(244 244 246 / var(--tw-bg-opacity));
 }
 
-.dark .dark\:border-h-100\/20 {
+.dark_dy .dark_dy\:border-h-100\/20 {
   border-color: rgb(255 255 255 / 0.2);
 }
 
-.dark .dark\:border-h-600 {
+.dark_dy .dark_dy\:border-h-600 {
   --tw-border-opacity: 1;
   border-color: rgb(53 54 56 / var(--tw-border-opacity));
 }
 
-.dark .dark\:border-b-h-600 {
+.dark_dy .dark_dy\:border-b-h-600 {
   --tw-border-opacity: 1;
   border-bottom-color: rgb(53 54 56 / var(--tw-border-opacity));
 }
 
-.dark .dark\:border-l-h-100 {
+.dark_dy .dark_dy\:border-l-h-100 {
   --tw-border-opacity: 1;
   border-left-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
-.dark .dark\:bg-h-200 {
+.dark_dy .dark_dy\:bg-h-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(244 244 246 / var(--tw-bg-opacity));
 }
 
-.dark .dark\:bg-h-500 {
+.dark_dy .dark_dy\:bg-h-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(102 102 110 / var(--tw-bg-opacity));
 }
 
-.dark .dark\:bg-h-600 {
+.dark_dy .dark_dy\:bg-h-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(53 54 56 / var(--tw-bg-opacity));
 }
 
-.dark .dark\:bg-h-700 {
+.dark_dy .dark_dy\:bg-h-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(41 42 45 / var(--tw-bg-opacity));
 }
 
-.dark .dark\:bg-h-800 {
+.dark_dy .dark_dy\:bg-h-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(30 31 33 / var(--tw-bg-opacity));
 }
 
-.dark .dark\:bg-h-800\/80 {
+.dark_dy .dark_dy\:bg-h-800\/80 {
   background-color: rgb(30 31 33 / 0.8);
 }
 
-.dark .dark\:text-h-200 {
+.dark_dy .dark_dy\:text-h-200 {
   --tw-text-opacity: 1;
   color: rgb(244 244 246 / var(--tw-text-opacity));
 }
 
-.dark .dark\:text-h-300 {
+.dark_dy .dark_dy\:text-h-300 {
   --tw-text-opacity: 1;
   color: rgb(230 230 233 / var(--tw-text-opacity));
 }
 
-.dark .dark\:text-h-400 {
+.dark_dy .dark_dy\:text-h-400 {
   --tw-text-opacity: 1;
   color: rgb(153 153 161 / var(--tw-text-opacity));
 }
 
-.dark .dark\:text-h-blue {
+.dark_dy .dark_dy\:text-h-blue {
   --tw-text-opacity: 1;
   color: rgb(93 176 215 / var(--tw-text-opacity));
 }
 
-.dark .dark\:opacity-100 {
+.dark_dy .dark_dy\:opacity-100 {
   opacity: 1;
 }
 
-.dark .dark\:invert {
+.dark_dy .dark_dy\:invert {
   --tw-invert: invert(100%);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.dark .before\:dark\:text-h-200::before {
+.dark_dy .before\:dark_dy\:text-h-200::before {
   content: var(--tw-content);
   --tw-text-opacity: 1;
   color: rgb(244 244 246 / var(--tw-text-opacity));
 }
 
-.dark .dark\:before\:text-h-200::before {
+.dark_dy .dark_dy\:before\:text-h-200::before {
   content: var(--tw-content);
   --tw-text-opacity: 1;
   color: rgb(244 244 246 / var(--tw-text-opacity));
 }
 
-.dark .dark\:hover\:bg-h-600:hover {
+.dark_dy .dark_dy\:hover\:bg-h-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(53 54 56 / var(--tw-bg-opacity));
 }
 
-.dark .dark\:hover\:text-h-200:hover {
+.dark_dy .dark_dy\:hover\:text-h-200:hover {
   --tw-text-opacity: 1;
   color: rgb(244 244 246 / var(--tw-text-opacity));
 }
@@ -2172,7 +2172,7 @@ button {
     transition-duration: 200ms;
   }
 
-  .dark .max-2xl\:dark\:bg-h-700 {
+  .dark_dy .max-2xl\:dark_dy\:bg-h-700 {
     --tw-bg-opacity: 1;
     background-color: rgb(41 42 45 / var(--tw-bg-opacity));
   }
@@ -2271,7 +2271,7 @@ button {
     line-height: 1.75rem;
   }
 
-  .dark .sm\:dark\:border-h-600 {
+  .dark_dy .sm\:dark_dy\:border-h-600 {
     --tw-border-opacity: 1;
     border-color: rgb(53 54 56 / var(--tw-border-opacity));
   }
@@ -2398,7 +2398,7 @@ button {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
 }
 
-.dark #shortcutLayer {
+.dark_dy #shortcutLayer {
 
   --tw-bg-opacity: 1;
 
@@ -2418,7 +2418,7 @@ button {
   color: rgb(244 244 246 / var(--tw-text-opacity))
 }
 
-.dark #shortcutLayer .btn_doc_close {
+.dark_dy #shortcutLayer .btn_doc_close {
 
   --tw-bg-opacity: 1;
 
@@ -2446,11 +2446,11 @@ button {
   color: rgb(53 54 56 / var(--tw-text-opacity))
 }
 
-.dark #shortcutLayer h2,
-.dark #shortcutLayer h3,
-.dark #shortcutLayer th,
-.dark #shortcutLayer td,
-.dark #shortcutLayer p {
+.dark_dy #shortcutLayer h2,
+.dark_dy #shortcutLayer h3,
+.dark_dy #shortcutLayer th,
+.dark_dy #shortcutLayer td,
+.dark_dy #shortcutLayer p {
 
   --tw-border-opacity: 1;
 
@@ -2489,7 +2489,7 @@ button {
   display: none
 }
 
-.dark [data-tistory-react-app=Comment] .tt-comment-cont .tt-txt-mention {
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont .tt-txt-mention {
   --tw-text-opacity: 1;
   color: rgb(93 176 215 / var(--tw-text-opacity))
 }
@@ -2531,7 +2531,7 @@ button {
   outline-offset: 2px;
 }
 
-.dark [data-tistory-react-app=Comment] .tt-comment-cont form .tt-area-write .tt_wrap_write .tt-box-account input {
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont form .tt-area-write .tt_wrap_write .tt-box-account input {
   --tw-bg-opacity: 1;
   background-color: rgb(41 42 45 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
@@ -2549,7 +2549,7 @@ button {
   padding: 1.25rem;
 }
 
-.dark [data-tistory-react-app=Comment] .tt-comment-cont form .tt-area-write .tt_wrap_write .tt-box-textarea .tt-inner-g {
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont form .tt-area-write .tt_wrap_write .tt-box-textarea .tt-inner-g {
   --tw-bg-opacity: 1;
   background-color: rgb(41 42 45 / var(--tw-bg-opacity));
 }
@@ -2563,7 +2563,7 @@ button {
   color: rgb(30 31 33 / var(--tw-text-opacity));
 }
 
-.dark [data-tistory-react-app=Comment] .tt-comment-cont form .tt-area-write .tt_wrap_write .tt-box-textarea .tt-inner-g .tt_txt_user {
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont form .tt-area-write .tt_wrap_write .tt-box-textarea .tt-inner-g .tt_txt_user {
   --tw-bg-opacity: 1;
   background-color: rgb(41 42 45 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
@@ -2586,8 +2586,8 @@ button {
   outline-offset: 2px;
 }
 
-.dark [data-tistory-react-app=Comment] .tt-comment-cont form .tt-area-write .tt_wrap_write .tt-box-textarea .tt-inner-g textarea,
-.dark [data-tistory-react-app=Comment] .tt-comment-cont form .tt-area-write .tt_wrap_write .tt-box-textarea .tt-inner-g div {
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont form .tt-area-write .tt_wrap_write .tt-box-textarea .tt-inner-g textarea,
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont form .tt-area-write .tt_wrap_write .tt-box-textarea .tt-inner-g div {
   --tw-bg-opacity: 1;
   background-color: rgb(41 42 45 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
@@ -2623,18 +2623,18 @@ button {
   background-color: rgb(230 230 233 / var(--tw-bg-opacity));
 }
 
-.dark [data-tistory-react-app=Comment] .tt-comment-cont form .tt-area-write .tt_wrap_write .tt-box-write .tt-xe-label,
-.dark [data-tistory-react-app=Comment] .tt-comment-cont form .tt-area-write .tt_wrap_write .tt-box-write .tt-btn-cancel,
-.dark [data-tistory-react-app=Comment] .tt-comment-cont form .tt-area-write .tt_wrap_write .tt-box-write .tt-btn_register,
-.dark [data-tistory-react-app=Comment] .tt-comment-cont form .tt-area-write .tt_wrap_write .tt-box-write .tt-btn_register:disabled {
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont form .tt-area-write .tt_wrap_write .tt-box-write .tt-xe-label,
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont form .tt-area-write .tt_wrap_write .tt-box-write .tt-btn-cancel,
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont form .tt-area-write .tt_wrap_write .tt-box-write .tt-btn_register,
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont form .tt-area-write .tt_wrap_write .tt-box-write .tt-btn_register:disabled {
   --tw-bg-opacity: 1;
   background-color: rgb(41 42 45 / var(--tw-bg-opacity));
 }
 
-.dark [data-tistory-react-app=Comment] .tt-comment-cont form .tt-area-write .tt_wrap_write .tt-box-write .tt-xe-label:hover,
-.dark [data-tistory-react-app=Comment] .tt-comment-cont form .tt-area-write .tt_wrap_write .tt-box-write .tt-btn-cancel:hover,
-.dark [data-tistory-react-app=Comment] .tt-comment-cont form .tt-area-write .tt_wrap_write .tt-box-write .tt-btn_register:hover,
-.dark [data-tistory-react-app=Comment] .tt-comment-cont form .tt-area-write .tt_wrap_write .tt-box-write .tt-btn_register:disabled:hover {
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont form .tt-area-write .tt_wrap_write .tt-box-write .tt-xe-label:hover,
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont form .tt-area-write .tt_wrap_write .tt-box-write .tt-btn-cancel:hover,
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont form .tt-area-write .tt_wrap_write .tt-box-write .tt-btn_register:hover,
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont form .tt-area-write .tt_wrap_write .tt-box-write .tt-btn_register:disabled:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(53 54 56 / var(--tw-bg-opacity));
 }
@@ -2665,9 +2665,9 @@ button {
   color: rgb(102 102 110 / var(--tw-text-opacity));
 }
 
-.dark [data-tistory-react-app=Comment] .tt-comment-cont form .tt-area-write .tt_wrap_write .tt-box-write .tt-xe-input-helper::before,
-.dark [data-tistory-react-app=Comment] .tt-comment-cont form .tt-area-write .tt_wrap_write .tt-box-write .tt-btn-cancel::before,
-.dark [data-tistory-react-app=Comment] .tt-comment-cont form .tt-area-write .tt_wrap_write .tt-box-write .tt-btn_register::before {
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont form .tt-area-write .tt_wrap_write .tt-box-write .tt-xe-input-helper::before,
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont form .tt-area-write .tt_wrap_write .tt-box-write .tt-btn-cancel::before,
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont form .tt-area-write .tt_wrap_write .tt-box-write .tt-btn_register::before {
   content: var(--tw-content);
   --tw-text-opacity: 1;
   color: rgb(244 244 246 / var(--tw-text-opacity));
@@ -2724,7 +2724,7 @@ button {
   background-color: rgb(230 230 233 / var(--tw-bg-opacity));
 }
 
-.dark [data-tistory-react-app=Comment] .tt-comment-cont .tt-item-reply form .tt-area-write .tt_wrap_write .tt-box-account input {
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont .tt-item-reply form .tt-area-write .tt_wrap_write .tt-box-account input {
   --tw-bg-opacity: 1;
   background-color: rgb(53 54 56 / var(--tw-bg-opacity));
 }
@@ -2734,7 +2734,7 @@ button {
   background-color: rgb(230 230 233 / var(--tw-bg-opacity));
 }
 
-.dark [data-tistory-react-app=Comment] .tt-comment-cont .tt-item-reply form .tt-area-write .tt_wrap_write .tt-box-textarea .tt-inner-g {
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont .tt-item-reply form .tt-area-write .tt_wrap_write .tt-box-textarea .tt-inner-g {
   --tw-bg-opacity: 1;
   background-color: rgb(53 54 56 / var(--tw-bg-opacity));
 }
@@ -2744,7 +2744,7 @@ button {
   background-color: rgb(230 230 233 / var(--tw-bg-opacity));
 }
 
-.dark [data-tistory-react-app=Comment] .tt-comment-cont .tt-item-reply form .tt-area-write .tt_wrap_write .tt-box-textarea .tt-inner-g .tt_txt_user {
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont .tt-item-reply form .tt-area-write .tt_wrap_write .tt-box-textarea .tt-inner-g .tt_txt_user {
   --tw-bg-opacity: 1;
   background-color: rgb(53 54 56 / var(--tw-bg-opacity));
 }
@@ -2755,8 +2755,8 @@ button {
   background-color: rgb(230 230 233 / var(--tw-bg-opacity));
 }
 
-.dark [data-tistory-react-app=Comment] .tt-comment-cont .tt-item-reply form .tt-area-write .tt_wrap_write .tt-box-textarea .tt-inner-g textarea,
-.dark [data-tistory-react-app=Comment] .tt-comment-cont .tt-item-reply form .tt-area-write .tt_wrap_write .tt-box-textarea .tt-inner-g div {
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont .tt-item-reply form .tt-area-write .tt_wrap_write .tt-box-textarea .tt-inner-g textarea,
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont .tt-item-reply form .tt-area-write .tt_wrap_write .tt-box-textarea .tt-inner-g div {
   --tw-bg-opacity: 1;
   background-color: rgb(53 54 56 / var(--tw-bg-opacity));
 }
@@ -2769,10 +2769,10 @@ button {
   background-color: rgb(230 230 233 / var(--tw-bg-opacity));
 }
 
-.dark [data-tistory-react-app=Comment] .tt-comment-cont .tt-item-reply form .tt-area-write .tt_wrap_write .tt-box-write .tt-xe-label,
-.dark [data-tistory-react-app=Comment] .tt-comment-cont .tt-item-reply form .tt-area-write .tt_wrap_write .tt-box-write .tt-btn-cancel,
-.dark [data-tistory-react-app=Comment] .tt-comment-cont .tt-item-reply form .tt-area-write .tt_wrap_write .tt-box-write .tt-btn_register,
-.dark [data-tistory-react-app=Comment] .tt-comment-cont .tt-item-reply form .tt-area-write .tt_wrap_write .tt-box-write .tt-btn_register:disabled {
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont .tt-item-reply form .tt-area-write .tt_wrap_write .tt-box-write .tt-xe-label,
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont .tt-item-reply form .tt-area-write .tt_wrap_write .tt-box-write .tt-btn-cancel,
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont .tt-item-reply form .tt-area-write .tt_wrap_write .tt-box-write .tt-btn_register,
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont .tt-item-reply form .tt-area-write .tt_wrap_write .tt-box-write .tt-btn_register:disabled {
   --tw-bg-opacity: 1;
   background-color: rgb(53 54 56 / var(--tw-bg-opacity));
 }
@@ -2831,7 +2831,7 @@ button {
   display: none;
 }
 
-.dark [data-tistory-react-app=Comment] .tt-comment-cont .tt-area-reply .tt-list-reply .tt-item-reply {
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont .tt-area-reply .tt-list-reply .tt-item-reply {
   --tw-bg-opacity: 1;
   background-color: rgb(41 42 45 / var(--tw-bg-opacity));
 }
@@ -2852,7 +2852,7 @@ button {
   padding-bottom: 2rem;
 }
 
-.dark [data-tistory-react-app=Comment] .tt-comment-cont .tt-area-reply .tt-list-reply .tt-item-reply.rp_general {
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont .tt-area-reply .tt-list-reply .tt-item-reply.rp_general {
   --tw-border-opacity: 1;
   border-color: rgb(53 54 56 / var(--tw-border-opacity));
 }
@@ -2903,7 +2903,7 @@ button {
   color: rgb(53 54 56 / var(--tw-text-opacity));
 }
 
-.dark [data-tistory-react-app=Comment] .tt-comment-cont .tt-area-reply .tt-list-reply .tt-item-reply .tt-wrap-cmt .tt-box-content .tt-box-meta .tt-link-user {
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont .tt-area-reply .tt-list-reply .tt-item-reply .tt-wrap-cmt .tt-box-content .tt-box-meta .tt-link-user {
   --tw-text-opacity: 1;
   color: rgb(244 244 246 / var(--tw-text-opacity));
 }
@@ -2932,7 +2932,7 @@ button {
   color: rgb(102 102 110 / var(--tw-text-opacity));
 }
 
-.dark [data-tistory-react-app=Comment] .tt-comment-cont .tt-area-reply .tt-list-reply .tt-item-reply .tt-wrap-cmt .tt-box-content .tt-wrap-desc .tt_desc {
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont .tt-area-reply .tt-list-reply .tt-item-reply .tt-wrap-cmt .tt-box-content .tt-wrap-desc .tt_desc {
   --tw-text-opacity: 1;
   color: rgb(230 230 233 / var(--tw-text-opacity));
 }
@@ -3010,7 +3010,7 @@ button {
   background-color: transparent;
 }
 
-.dark [data-tistory-react-app=Comment] .tt-comment-cont .tt-area-reply .tt-list-reply .tt-item-reply .tt-wrap-cmt .tt-box-content .tt-box-modify .tt-button-modify::before {
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont .tt-area-reply .tt-list-reply .tt-item-reply .tt-wrap-cmt .tt-box-content .tt-box-modify .tt-button-modify::before {
   content: var(--tw-content);
   --tw-text-opacity: 1;
   color: rgb(244 244 246 / var(--tw-text-opacity));
@@ -3026,7 +3026,7 @@ button {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.dark [data-tistory-react-app=Comment] .tt-comment-cont .tt-area-reply .tt-list-reply .tt-item-reply .tt-wrap-cmt .tt-box-content .tt-box-modify .tt-list-modify {
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont .tt-area-reply .tt-list-reply .tt-item-reply .tt-wrap-cmt .tt-box-content .tt-box-modify .tt-list-modify {
   --tw-bg-opacity: 1;
   background-color: rgb(53 54 56 / var(--tw-bg-opacity));
 }
@@ -3043,14 +3043,14 @@ button {
   background-color: rgb(53 54 56 / var(--tw-bg-opacity));
 }
 
-.dark [data-tistory-react-app=Comment] .tt-comment-cont .tt-area-reply .tt-list-reply .tt-item-reply .tt-wrap-cmt .tt-box-content .tt-box-modify .tt-list-modify li a {
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont .tt-area-reply .tt-list-reply .tt-item-reply .tt-wrap-cmt .tt-box-content .tt-box-modify .tt-list-modify li a {
   --tw-bg-opacity: 1;
   background-color: rgb(53 54 56 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(153 153 161 / var(--tw-text-opacity));
 }
 
-.dark [data-tistory-react-app=Comment] .tt-comment-cont .tt-area-reply .tt-list-reply .tt-item-reply .tt-wrap-cmt .tt-box-content .tt-box-modify .tt-list-modify li a:hover {
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont .tt-area-reply .tt-list-reply .tt-item-reply .tt-wrap-cmt .tt-box-content .tt-box-modify .tt-list-modify li a:hover {
   --tw-text-opacity: 1;
   color: rgb(244 244 246 / var(--tw-text-opacity));
 }
@@ -3063,7 +3063,7 @@ button {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.dark [data-tistory-react-app=Comment] .tt-comment-cont .tt-area-reply .tt-list-reply .tt-item-reply .tt-wrap-cmt .tt-box-content .tt_box_pwd {
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont .tt-area-reply .tt-list-reply .tt-item-reply .tt-wrap-cmt .tt-box-content .tt_box_pwd {
   --tw-bg-opacity: 1;
   background-color: rgb(41 42 45 / var(--tw-bg-opacity));
 }
@@ -3078,7 +3078,7 @@ button {
   outline-offset: 2px;
 }
 
-.dark [data-tistory-react-app=Comment] .tt-comment-cont .tt-area-reply .tt-list-reply .tt-item-reply .tt-wrap-cmt .tt-box-content .tt_box_pwd .tt_form_pwd .tt_inp_g {
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont .tt-area-reply .tt-list-reply .tt-item-reply .tt-wrap-cmt .tt-box-content .tt_box_pwd .tt_form_pwd .tt_inp_g {
   --tw-bg-opacity: 1;
   background-color: rgb(53 54 56 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
@@ -3095,12 +3095,12 @@ button {
   background-color: rgb(244 244 246 / var(--tw-bg-opacity));
 }
 
-.dark [data-tistory-react-app=Comment] .tt-comment-cont .tt-area-reply .tt-list-reply .tt-item-reply .tt-wrap-cmt .tt-box-content .tt_box_pwd .tt_form_pwd .tt_btn_submit {
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont .tt-area-reply .tt-list-reply .tt-item-reply .tt-wrap-cmt .tt-box-content .tt_box_pwd .tt_form_pwd .tt_btn_submit {
   --tw-bg-opacity: 1;
   background-color: rgb(102 102 110 / var(--tw-bg-opacity));
 }
 
-.dark [data-tistory-react-app=Comment] .tt-comment-cont .tt-area-reply .tt-list-reply .tt-item-reply .tt-wrap-cmt .tt-box-content .tt_box_pwd .tt_form_pwd .tt_btn_submit:disabled {
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont .tt-area-reply .tt-list-reply .tt-item-reply .tt-wrap-cmt .tt-box-content .tt_box_pwd .tt_form_pwd .tt_btn_submit:disabled {
   --tw-bg-opacity: 1;
   background-color: rgb(102 102 110 / var(--tw-bg-opacity));
 }
@@ -3122,7 +3122,7 @@ button {
   padding: 2rem;
 }
 
-.dark [data-tistory-react-app=Comment] .tt-comment-cont .tt-area-reply .tt-list-reply .tt-item-reply .tt-list-reply-comment {
+.dark_dy [data-tistory-react-app=Comment] .tt-comment-cont .tt-area-reply .tt-list-reply .tt-item-reply .tt-list-reply-comment {
   --tw-bg-opacity: 1;
   background-color: rgb(41 42 45 / var(--tw-bg-opacity));
 }
@@ -3239,7 +3239,7 @@ button {
   color: rgb(53 54 56 / var(--tw-text-opacity))
 }
 
-.dark #article .contents_style {
+.dark_dy #article .contents_style {
 
   --tw-text-opacity: 1;
 
@@ -3255,7 +3255,7 @@ button {
   text-decoration-thickness: 0px
 }
 
-.dark #article .contents_style a {
+.dark_dy #article .contents_style a {
 
   --tw-text-opacity: 1;
 
@@ -3284,9 +3284,9 @@ button {
   color: rgb(53 54 56 / var(--tw-text-opacity))
 }
 
-.dark #article .contents_style h2 a,
-.dark #article .contents_style h3 a,
-.dark #article .contents_style h4 a {
+.dark_dy #article .contents_style h2 a,
+.dark_dy #article .contents_style h3 a,
+.dark_dy #article .contents_style h4 a {
 
   --tw-text-opacity: 1;
 
@@ -3384,12 +3384,12 @@ button {
   color: rgb(53 54 56 / var(--tw-text-opacity))
 }
 
-.dark #article .contents_style p,
-.dark #article .contents_style ol[data-ke-list-type],
-.dark #article .contents_style ul[data-ke-list-type],
-.dark #article .contents_style table[data-ke-align],
-.dark #article .contents_style blockquote[data-ke-style=style2],
-.dark #article .contents_style blockquote[data-ke-style=style3] {
+.dark_dy #article .contents_style p,
+.dark_dy #article .contents_style ol[data-ke-list-type],
+.dark_dy #article .contents_style ul[data-ke-list-type],
+.dark_dy #article .contents_style table[data-ke-align],
+.dark_dy #article .contents_style blockquote[data-ke-style=style2],
+.dark_dy #article .contents_style blockquote[data-ke-style=style3] {
 
   --tw-text-opacity: 1;
 
@@ -3426,12 +3426,12 @@ button {
   color: rgb(255 85 68 / var(--tw-text-opacity))
 }
 
-.dark #article .contents_style p a,
-.dark #article .contents_style ol[data-ke-list-type] a,
-.dark #article .contents_style ul[data-ke-list-type] a,
-.dark #article .contents_style table[data-ke-align] a,
-.dark #article .contents_style blockquote[data-ke-style=style2] a,
-.dark #article .contents_style blockquote[data-ke-style=style3] a {
+.dark_dy #article .contents_style p a,
+.dark_dy #article .contents_style ol[data-ke-list-type] a,
+.dark_dy #article .contents_style ul[data-ke-list-type] a,
+.dark_dy #article .contents_style table[data-ke-align] a,
+.dark_dy #article .contents_style blockquote[data-ke-style=style2] a,
+.dark_dy #article .contents_style blockquote[data-ke-style=style3] a {
 
   --tw-text-opacity: 1;
 
@@ -3476,12 +3476,12 @@ button {
   color: rgb(255 85 68 / var(--tw-text-opacity))
 }
 
-.dark #article .contents_style p code:not(:where(pre *)),
-.dark #article .contents_style ol[data-ke-list-type] code:not(:where(pre *)),
-.dark #article .contents_style ul[data-ke-list-type] code:not(:where(pre *)),
-.dark #article .contents_style table[data-ke-align] code:not(:where(pre *)),
-.dark #article .contents_style blockquote[data-ke-style=style2] code:not(:where(pre *)),
-.dark #article .contents_style blockquote[data-ke-style=style3] code:not(:where(pre *)) {
+.dark_dy #article .contents_style p code:not(:where(pre *)),
+.dark_dy #article .contents_style ol[data-ke-list-type] code:not(:where(pre *)),
+.dark_dy #article .contents_style ul[data-ke-list-type] code:not(:where(pre *)),
+.dark_dy #article .contents_style table[data-ke-align] code:not(:where(pre *)),
+.dark_dy #article .contents_style blockquote[data-ke-style=style2] code:not(:where(pre *)),
+.dark_dy #article .contents_style blockquote[data-ke-style=style3] code:not(:where(pre *)) {
 
   --tw-bg-opacity: 1;
 
@@ -3502,7 +3502,7 @@ button {
   margin-bottom: 1.25rem
 }
 
-.dark #article .contents_style hr[data-ke-style] {
+.dark_dy #article .contents_style hr[data-ke-style] {
 
   --tw-brightness: brightness(0);
 
@@ -3551,8 +3551,8 @@ button {
 
 }
 
-.dark #article .contents_style table[data-ke-align] td,
-.dark #article .contents_style table[data-ke-align] th {
+.dark_dy #article .contents_style table[data-ke-align] td,
+.dark_dy #article .contents_style table[data-ke-align] th {
 
   --tw-border-opacity: 1;
 
@@ -3620,7 +3620,7 @@ button {
   background-color: rgb(244 244 246 / var(--tw-bg-opacity))
 }
 
-.dark #article .contents_style figure[data-ke-type=opengraph] .og-text {
+.dark_dy #article .contents_style figure[data-ke-type=opengraph] .og-text {
 
   --tw-bg-opacity: 1;
 
@@ -3638,9 +3638,9 @@ button {
   color: rgb(102 102 110 / var(--tw-text-opacity))
 }
 
-.dark #article .contents_style figure[data-ke-type=opengraph] .og-text .og-title,
-.dark #article .contents_style figure[data-ke-type=opengraph] .og-text .og-desc,
-.dark #article .contents_style figure[data-ke-type=opengraph] .og-text .og-host {
+.dark_dy #article .contents_style figure[data-ke-type=opengraph] .og-text .og-title,
+.dark_dy #article .contents_style figure[data-ke-type=opengraph] .og-text .og-desc,
+.dark_dy #article .contents_style figure[data-ke-type=opengraph] .og-text .og-host {
 
   --tw-text-opacity: 1;
 
@@ -3665,7 +3665,7 @@ button {
   background-color: rgb(244 244 246 / var(--tw-bg-opacity))
 }
 
-.dark #article .contents_style figure.fileblock {
+.dark_dy #article .contents_style figure.fileblock {
 
   --tw-bg-opacity: 1;
 
@@ -3682,16 +3682,16 @@ button {
   height: auto
 }
 
-.dark #article .contents_style figure.fileblock .filename,
-.dark #article .contents_style figure.fileblock .size {
+.dark_dy #article .contents_style figure.fileblock .filename,
+.dark_dy #article .contents_style figure.fileblock .size {
 
   --tw-text-opacity: 1;
 
   color: rgb(244 244 246 / var(--tw-text-opacity))
 }
 
-.dark #article .contents_style figure.fileblock .image,
-.dark #article .contents_style figure.fileblock a::after {
+.dark_dy #article .contents_style figure.fileblock .image,
+.dark_dy #article .contents_style figure.fileblock a::after {
 
   --tw-brightness: brightness(0);
 
@@ -3732,7 +3732,7 @@ button {
   content: var(--tw-content)
 }
 
-.dark #article .contents_style [data-ke-type=moreLess]::before {
+.dark_dy #article .contents_style [data-ke-type=moreLess]::before {
 
   --tw-border-opacity: 1;
 
@@ -3824,7 +3824,7 @@ button {
   color: rgb(53 54 56 / var(--tw-text-opacity))
 }
 
-.dark #article .contents_style blockquote[data-ke-style] {
+.dark_dy #article .contents_style blockquote[data-ke-style] {
 
   --tw-text-opacity: 1;
 
@@ -3848,7 +3848,7 @@ button {
   color: rgb(53 54 56 / var(--tw-text-opacity))
 }
 
-.dark #article .contents_style blockquote[data-ke-style][data-ke-style=style1] {
+.dark_dy #article .contents_style blockquote[data-ke-style][data-ke-style=style1] {
 
   --tw-text-opacity: 1;
 
@@ -3882,7 +3882,7 @@ button {
   color: rgb(153 153 161 / var(--tw-text-opacity))
 }
 
-.dark #article .contents_style blockquote[data-ke-style][data-ke-style=style2] {
+.dark_dy #article .contents_style blockquote[data-ke-style][data-ke-style=style2] {
 
   --tw-border-opacity: 1;
 
@@ -3908,7 +3908,7 @@ button {
   color: rgb(153 153 161 / var(--tw-text-opacity))
 }
 
-.dark #article .contents_style blockquote[data-ke-style][data-ke-style=style3] {
+.dark_dy #article .contents_style blockquote[data-ke-style][data-ke-style=style3] {
 
   --tw-bg-opacity: 1;
 
@@ -3939,7 +3939,7 @@ button {
   background-color: rgb(244 244 246 / var(--tw-bg-opacity))
 }
 
-.dark #article .contents_style pre code.hljs {
+.dark_dy #article .contents_style pre code.hljs {
 
   --tw-bg-opacity: 1;
 
@@ -3963,7 +3963,7 @@ button {
   color: rgb(53 54 56 / var(--tw-text-opacity))
 }
 
-.dark #article .container_postbtn {
+.dark_dy #article .container_postbtn {
 
   --tw-text-opacity: 1;
 
@@ -4029,18 +4029,18 @@ button {
   background-color: rgb(230 230 233 / var(--tw-bg-opacity))
 }
 
-.dark #article .container_postbtn .postbtn_like>.wrap_btn:not([id^=reaction-])>button,
-.dark #article .container_postbtn .btn_subscription,
-.dark #article .container_postbtn .tt-btn-support {
+.dark_dy #article .container_postbtn .postbtn_like>.wrap_btn:not([id^=reaction-])>button,
+.dark_dy #article .container_postbtn .btn_subscription,
+.dark_dy #article .container_postbtn .tt-btn-support {
 
   --tw-bg-opacity: 1;
 
   background-color: rgb(41 42 45 / var(--tw-bg-opacity))
 }
 
-.dark #article .container_postbtn .postbtn_like>.wrap_btn:not([id^=reaction-])>button::before,
-.dark #article .container_postbtn .btn_subscription::before,
-.dark #article .container_postbtn .tt-btn-support::before {
+.dark_dy #article .container_postbtn .postbtn_like>.wrap_btn:not([id^=reaction-])>button::before,
+.dark_dy #article .container_postbtn .btn_subscription::before,
+.dark_dy #article .container_postbtn .tt-btn-support::before {
 
   content: var(--tw-content);
 
@@ -4049,9 +4049,9 @@ button {
   color: rgb(244 244 246 / var(--tw-text-opacity))
 }
 
-.dark #article .container_postbtn .postbtn_like>.wrap_btn:not([id^=reaction-])>button:hover,
-.dark #article .container_postbtn .btn_subscription:hover,
-.dark #article .container_postbtn .tt-btn-support:hover {
+.dark_dy #article .container_postbtn .postbtn_like>.wrap_btn:not([id^=reaction-])>button:hover,
+.dark_dy #article .container_postbtn .btn_subscription:hover,
+.dark_dy #article .container_postbtn .tt-btn-support:hover {
 
   --tw-bg-opacity: 1;
 
@@ -4246,7 +4246,7 @@ button {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
 }
 
-.dark #tistoryCclLayer {
+.dark_dy #tistoryCclLayer {
   --tw-bg-opacity: 1;
   background-color: rgb(41 42 45 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
@@ -4272,8 +4272,8 @@ button {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
 }
 
-.dark #tistorySnsLayer,
-.dark #tistoryEtcLayer {
+.dark_dy #tistorySnsLayer,
+.dark_dy #tistoryEtcLayer {
   --tw-bg-opacity: 1;
   background-color: rgb(41 42 45 / var(--tw-bg-opacity))
 }
@@ -4284,8 +4284,8 @@ button {
   color: rgb(153 153 161 / var(--tw-text-opacity))
 }
 
-.dark #tistorySnsLayer .btn_mark,
-.dark #tistoryEtcLayer .btn_mark {
+.dark_dy #tistorySnsLayer .btn_mark,
+.dark_dy #tistoryEtcLayer .btn_mark {
   --tw-text-opacity: 1;
   color: rgb(230 230 233 / var(--tw-text-opacity))
 }
@@ -4296,8 +4296,8 @@ button {
   background-color: rgb(230 230 233 / var(--tw-bg-opacity))
 }
 
-.dark #tistorySnsLayer .btn_mark:hover,
-.dark #tistoryEtcLayer .btn_mark:hover {
+.dark_dy #tistorySnsLayer .btn_mark:hover,
+.dark_dy #tistoryEtcLayer .btn_mark:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(53 54 56 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
@@ -4316,8 +4316,8 @@ button {
   text-decoration-line: none
 }
 
-.dark #tistorySnsLayer .bundle_post a,
-.dark #tistoryEtcLayer .bundle_post a {
+.dark_dy #tistorySnsLayer .bundle_post a,
+.dark_dy #tistoryEtcLayer .bundle_post a {
   --tw-text-opacity: 1;
   color: rgb(230 230 233 / var(--tw-text-opacity))
 }
@@ -4388,8 +4388,8 @@ div[data-tistory-react-app=Namecard] {
   background-color: rgb(244 244 246 / var(--tw-bg-opacity))
 }
 
-.dark #global-header~.post .content .picture .fallback,
-.dark [data-list-style] .post .content .picture .fallback {
+.dark_dy #global-header~.post .content .picture .fallback,
+.dark_dy [data-list-style] .post .content .picture .fallback {
 
   --tw-bg-opacity: 1;
 
@@ -4624,8 +4624,8 @@ div[data-tistory-react-app=Namecard] {
     border-top-width: 0px
   }
 
-  .dark #global-header~.post,
-  .dark [data-list-style=list] .post {
+  .dark_dy #global-header~.post,
+  .dark_dy [data-list-style=list] .post {
 
     --tw-border-opacity: 1;
 
@@ -4745,8 +4745,8 @@ div[data-tistory-react-app=Namecard] {
   color: rgb(30 31 33 / var(--tw-text-opacity))
 }
 
-.dark #global-header~.post .content .info .header .tit,
-.dark [data-list-style=list] .post .content .info .header .tit {
+.dark_dy #global-header~.post .content .info .header .tit,
+.dark_dy [data-list-style=list] .post .content .info .header .tit {
 
   --tw-text-opacity: 1;
 
@@ -4866,7 +4866,7 @@ div[data-tistory-react-app=Namecard] {
   color: rgb(30 31 33 / var(--tw-text-opacity))
 }
 
-.dark [data-list-style=grid] .post .content .info .header .tit {
+.dark_dy [data-list-style=grid] .post .content .info .header .tit {
 
   --tw-text-opacity: 1;
 
@@ -5011,7 +5011,7 @@ div[data-tistory-react-app=Namecard] {
   color: rgb(30 31 33 / var(--tw-text-opacity))
 }
 
-.dark [data-list-style=Z] .post .content .info .header .tit {
+.dark_dy [data-list-style=Z] .post .content .info .header .tit {
 
   --tw-text-opacity: 1;
 
@@ -5453,7 +5453,7 @@ div[data-tistory-react-app=Namecard] {
   color: rgb(102 102 110 / var(--tw-text-opacity))
 }
 
-.dark #tags a {
+.dark_dy #tags a {
   --tw-bg-opacity: 1;
   background-color: rgb(41 42 45 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
@@ -5509,8 +5509,8 @@ div[data-tistory-react-app=Namecard] {
   color: rgb(30 31 33 / var(--tw-text-opacity))
 }
 
-.dark #paging i,
-.dark #paging span {
+.dark_dy #paging i,
+.dark_dy #paging span {
   --tw-text-opacity: 1;
   color: rgb(230 230 233 / var(--tw-text-opacity))
 }
@@ -5546,7 +5546,7 @@ div[data-tistory-react-app=Namecard] {
   color: rgb(53 54 56 / var(--tw-text-opacity))
 }
 
-.dark #counter .cnt {
+.dark_dy #counter .cnt {
   --tw-text-opacity: 1;
   color: rgb(244 244 246 / var(--tw-text-opacity))
 }
@@ -5574,7 +5574,7 @@ div[data-tistory-react-app=Namecard] {
   color: rgb(0 0 0 / var(--tw-text-opacity))
 }
 
-.dark #category .tt_category .link_tit {
+.dark_dy #category .tt_category .link_tit {
   --tw-text-opacity: 1;
   color: rgb(244 244 246 / var(--tw-text-opacity))
 }
@@ -5652,7 +5652,7 @@ div[data-tistory-react-app=Namecard] {
   color: rgb(30 31 33 / var(--tw-text-opacity))
 }
 
-.dark #sidebar .el h2 {
+.dark_dy #sidebar .el h2 {
 
   --tw-text-opacity: 1;
 
@@ -5680,7 +5680,7 @@ div[data-tistory-react-app=Namecard] {
   color: rgb(30 31 33 / var(--tw-text-opacity))
 }
 
-.dark #sidebar .el a:not(.link_tit):hover {
+.dark_dy #sidebar .el a:not(.link_tit):hover {
 
   --tw-text-opacity: 1;
 
@@ -5744,8 +5744,8 @@ div[data-tistory-react-app=Namecard] {
   background-color: rgb(230 230 233 / var(--tw-bg-opacity))
 }
 
-.dark #top .menu_toolbar .subscribe,
-.dark #top .menu_toolbar .btn_menu_type2 {
+.dark_dy #top .menu_toolbar .subscribe,
+.dark_dy #top .menu_toolbar .btn_menu_type2 {
 
   --tw-bg-opacity: 1;
 
@@ -5756,8 +5756,8 @@ div[data-tistory-react-app=Namecard] {
   color: rgb(244 244 246 / var(--tw-text-opacity))
 }
 
-.dark #top .menu_toolbar .subscribe:hover,
-.dark #top .menu_toolbar .btn_menu_type2:hover {
+.dark_dy #top .menu_toolbar .subscribe:hover,
+.dark_dy #top .menu_toolbar .btn_menu_type2:hover {
 
   --tw-bg-opacity: 1;
 
@@ -5785,7 +5785,7 @@ div[data-tistory-react-app=Namecard] {
   opacity: 0.7
 }
 
-.dark #menubar_wrapper .btn_menu_type2 .ico_tistory_sign {
+.dark_dy #menubar_wrapper .btn_menu_type2 .ico_tistory_sign {
 
   opacity: 1;
 
@@ -5817,7 +5817,7 @@ div[data-tistory-react-app=Namecard] {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
 }
 
-.dark #menubar_wrapper .header_layer {
+.dark_dy #menubar_wrapper .header_layer {
 
   --tw-bg-opacity: 1;
 
@@ -5841,7 +5841,7 @@ div[data-tistory-react-app=Namecard] {
   border-bottom-color: rgb(230 230 233 / var(--tw-border-opacity))
 }
 
-.dark #menubar_wrapper .header_layer .info_profile {
+.dark_dy #menubar_wrapper .header_layer .info_profile {
 
   --tw-border-opacity: 1;
 
@@ -5855,7 +5855,7 @@ div[data-tistory-react-app=Namecard] {
   color: rgb(102 102 110 / var(--tw-text-opacity))
 }
 
-.dark #menubar_wrapper .header_layer .info_profile .txt_id {
+.dark_dy #menubar_wrapper .header_layer .info_profile .txt_id {
 
   --tw-text-opacity: 1;
 
@@ -5878,8 +5878,8 @@ div[data-tistory-react-app=Namecard] {
   color: rgb(30 31 33 / var(--tw-text-opacity))
 }
 
-.dark #menubar_wrapper .header_layer .info_profile .txt_email:hover,
-.dark #menubar_wrapper .header_layer .info_profile .link_setting_type2:hover {
+.dark_dy #menubar_wrapper .header_layer .info_profile .txt_email:hover,
+.dark_dy #menubar_wrapper .header_layer .info_profile .link_setting_type2:hover {
 
   --tw-text-opacity: 1;
 
@@ -5893,7 +5893,7 @@ div[data-tistory-react-app=Namecard] {
   color: rgb(102 102 110 / var(--tw-text-opacity))
 }
 
-.dark #menubar_wrapper .header_layer .list_toolbar li .link_list {
+.dark_dy #menubar_wrapper .header_layer .list_toolbar li .link_list {
 
   --tw-text-opacity: 1;
 
@@ -5914,7 +5914,7 @@ div[data-tistory-react-app=Namecard] {
   color: rgb(30 31 33 / var(--tw-text-opacity))
 }
 
-.dark #menubar_wrapper .header_layer .list_toolbar li:last-child .link_list:hover {
+.dark_dy #menubar_wrapper .header_layer .list_toolbar li:last-child .link_list:hover {
 
   --tw-text-opacity: 1;
 
@@ -5935,7 +5935,7 @@ div[data-tistory-react-app=Namecard] {
   color: rgb(30 31 33 / var(--tw-text-opacity))
 }
 
-.dark #menubar_wrapper .header_layer .wrap_list .tit_list_type:hover {
+.dark_dy #menubar_wrapper .header_layer .wrap_list .tit_list_type:hover {
 
   --tw-text-opacity: 1;
 
@@ -5949,7 +5949,7 @@ div[data-tistory-react-app=Namecard] {
   border-top-color: rgb(230 230 233 / var(--tw-border-opacity))
 }
 
-.dark #menubar_wrapper .header_layer .wrap_toolbar {
+.dark_dy #menubar_wrapper .header_layer .wrap_toolbar {
 
   --tw-border-opacity: 1;
 
@@ -5979,14 +5979,14 @@ div[data-tistory-react-app=Namecard] {
   background-color: rgb(230 230 233 / var(--tw-bg-opacity))
 }
 
-.dark #bottom .btn {
+.dark_dy #bottom .btn {
   --tw-bg-opacity: 1;
   background-color: rgb(41 42 45 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(244 244 246 / var(--tw-text-opacity))
 }
 
-.dark #bottom .btn:hover {
+.dark_dy #bottom .btn:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(53 54 56 / var(--tw-bg-opacity))
 }
@@ -6002,4 +6002,238 @@ div[data-tistory-react-app=Namecard] {
 #bottom .btn .ico {
   font-size: 1rem;
   line-height: 1.5rem
+}
+
+
+/* 여기서부터 내가 추가 ----------------------------------------- */
+
+/* --- 메모 마스킹 기본 스타일 --- */
+.memo-mask {
+  display: inline-block;
+  padding: 0 4px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+/* 1. 정답 보기 모드 (초록색 텍스트) */
+.memo-mode-answer .memo-mask, 
+.memo-mask.is-correct {
+  color: #2ecc71;
+  font-weight: bold;
+}
+
+/* 2. 오답 상태 (빨간색 텍스트 + 볼드 처리) */
+.memo-mask.is-incorrect {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+/* 3. 마스킹 모드 (연두색 박스, 글자 숨김) */
+.memo-mode-mask .memo-mask {
+  background-color: #d4edaa;
+  color: transparent;
+}
+.memo-mode-mask .memo-mask:hover {
+  background-color: #3b4b23;
+  color: #ffffff;
+}
+
+/* --- [추가] 힌트 유지용 Wrapper 및 힌트 텍스트 스타일 --- */
+.memo-input-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.memo-hint-text {
+  position: absolute;
+  left: 7px; /* 입력 텍스트와 완벽히 겹치도록 위치 미세조정 */
+  top: 50%;
+  transform: translateY(-50%);
+  color: #b2bec3; /* 흐린 회색 힌트 */
+  pointer-events: none; /* 클릭 방해 금지 */
+  z-index: 1;
+  white-space: nowrap;
+}
+
+/* 4. 빈칸 채우기 / 첫글자 힌트 / 타이핑 모드의 Input 스타일 */
+.memo-input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 1em;
+  min-width: 40px; 
+  outline: none;
+  text-align: left;
+  background-color: transparent !important; /* 힌트가 보이도록 투명화 */
+  position: relative;
+  z-index: 2; /* 힌트 텍스트보다 위로 배치 */
+}
+.memo-input:focus {
+  border-color: #0984e3;
+}
+
+/* --- 플로팅 날개 메뉴 (우측) --- */
+.memo-floating-panel {
+  position: fixed;
+  right: 0; /* 20px에서 0으로 변경하여 우측에 완전 밀착 */
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 9999;
+}
+
+/* 기본 버튼 (연두색) */
+.memo-btn {
+  background-color: #aed688;
+  color: #333;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 15px 0 0 15px;
+  box-shadow: -2px 2px 5px rgba(0,0,0,0.1);
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+.memo-btn:hover { background-color: #9bcc70; }
+
+/* 텍스트 입력 관련 버튼 (연한 회색) */
+.memo-btn.gray-btn {
+  background-color: #e0e0e0; /* 연한 회색 */
+}
+.memo-btn.gray-btn:hover {
+  background-color: #c8c8c8; /* 마우스 호버 시 약간 짙어짐 */
+}
+
+/* 오답만 남기기 버튼 (연한 빨간색) */
+.memo-btn.red-btn {
+  background-color: #ffb8b8; 
+}
+.memo-btn.red-btn:hover {
+  background-color: #ff9999; 
+}
+
+/* --- 하단 커스텀 편집 안내 패널 --- */
+.memo-bottom-panel {
+  position: fixed !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  background-color: #333 !important;
+  color: white !important;
+  padding: 15px 20px !important;
+  
+  display: flex !important;
+  flex-direction: row !important; 
+  flex-wrap: nowrap !important; 
+  justify-content: space-between !important; 
+  align-items: center !important;
+  
+  z-index: 9999 !important;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+}
+
+.memo-bottom-panel.show {
+  transform: translateY(0);
+}
+
+.memo-bottom-panel span {
+  flex-shrink: 1 !important; 
+  margin-right: auto !important;
+}
+
+/* 버튼들을 감싸는 그룹 (우측 고정) */
+.memo-bottom-buttons {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 15px !important;
+  flex-shrink: 0 !important; 
+}
+
+.memo-bottom-buttons button {
+  background-color: transparent !important;
+  border: 1px solid white !important;
+  color: white !important;
+  padding: 5px 15px !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+  white-space: nowrap !important;
+}
+
+.memo-bottom-buttons button:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* --- 옵시디언 스타일: 중첩 리스트 가이드라인 (세로선) --- */
+
+/* hELLO 스킨의 본문 영역(.prose) 및 기본 티스토리 본문 영역 타겟팅 */
+.prose ul ul, .prose ul ol,
+.prose ol ul, .prose ol ol,
+.tt_article_useless_p_margin ul ul,
+.tt_article_useless_p_margin ul ol,
+.tt_article_useless_p_margin ol ul,
+.tt_article_useless_p_margin ol ol {
+  /* 세로선 굵기와 색상 (옵시디언 느낌의 연한 회색) */
+  border-left: 2px solid #e2e8f0 !important; 
+  
+  /* 선과 우측 텍스트(하위 리스트) 사이의 간격 */
+  padding-left: 4em !important; 
+  
+  /* 부모 글머리 기호(•)의 중앙 아래에 선이 오도록 위치 미세조정 */
+  margin-left: -1em !important; 
+  
+  /* 마우스 오버 시 부드러운 색상 전환 효과 */
+  transition: border-color 0.1s ease !important; 
+}
+
+/* 마우스를 올렸을 때 선 색상이 약간 진해지는 효과 (현재 읽는 위치 파악 용이) */
+.prose ul ul:hover, .prose ul ol:hover,
+.prose ol ul:hover, .prose ol ol:hover,
+.tt_article_useless_p_margin ul ul:hover,
+.tt_article_useless_p_margin ul ol:hover,
+.tt_article_useless_p_margin ol ul:hover,
+.tt_article_useless_p_margin ol ol:hover {
+  border-left-color: #adadad !important; /* 조금 더 짙은 슬레이트 회색 */
+}
+
+/* --- 본문 h1, h2, h3 및 내부 링크/스팬 색상 강제 커스텀 --- */
+
+/* h1: 다크 네이비 (h1은 블로그 제목으로 취급?) */
+.prose h1, .prose h1 a, .prose h1 span,
+.tt_article_useless_p_margin h1, .tt_article_useless_p_margin h1 a, .tt_article_useless_p_margin h1 span {
+  color: #12326c !important; 
+  font-weight: bold !important;
+  text-decoration: none !important; /* 링크 밑줄 제거 */
+  font-size: 2.2em !important; /* 폰트 크기 키움 (본문의 약 2.2배) */
+}
+
+/* h2: 다크 네이비 (제목1) */
+.prose h2, .prose h2 a, .prose h2 span,
+.tt_article_useless_p_margin h2, .tt_article_useless_p_margin h2 a, .tt_article_useless_p_margin h2 span {
+  color: #12326c !important; 
+  font-weight: bold !important;
+  text-decoration: none !important;
+  font-size: 1.46em !important; /* 폰트 크기 키움 (본문의 약 1.8배) */
+}
+
+/* h3: 미디엄 블루 (제목2) */
+.prose h3, .prose h3 a, .prose h3 span,
+.tt_article_useless_p_margin h3, .tt_article_useless_p_margin h3 a, .tt_article_useless_p_margin h3 span {
+  color: #155eb0 !important; 
+  font-weight: bold !important;
+  text-decoration: none !important;
+  font-size: 1.365em !important; /* 폰트 크기 키움 (본문의 약 1.5배) */
+}
+
+/* h4: 라이트 블루 (제목3) */
+.prose h4, .prose h4 a, .prose h4 span,
+.tt_article_useless_p_margin h4, .tt_article_useless_p_margin h4 a, .tt_article_useless_p_margin h4 span {
+  color: #5e97d5 !important; 
+  font-weight: bold !important;
+  text-decoration: none !important;
+  font-size: 1.3em !important; /* 폰트 크기 키움 (본문의 약 1.25배) */
 }
